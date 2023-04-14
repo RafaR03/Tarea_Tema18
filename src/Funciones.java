@@ -54,9 +54,7 @@ public class Funciones{
  */
     // Un método que devuelve el resto de la división de dos enteros.
     public static int resto(int e,int t){
-        int resto=0;
-        resto=e%t;
-        return resto;
+        return e%t;
     }
 /**
  * Toma un entero como argumento y devuelve el negativo de ese entero
