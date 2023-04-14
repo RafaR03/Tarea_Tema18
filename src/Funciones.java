@@ -30,9 +30,7 @@ public class Funciones{
     * @return El producto de los dos números.
     */
     public static int mult(int k,int p){
-        int mult=0;
-        mult= k*p;
-        return mult;
+        return k*p;
     }
   /**
    * Esta función toma dos enteros como entrada y devuelve el cociente de los dos enteros
