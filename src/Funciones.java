@@ -9,9 +9,7 @@ public class Funciones{
     * @return La suma de los dos números.
     */
     public static int suma(int x,int y) {
-        int suma=0;
-         suma = x + y;
-        return suma;
+        return x + y;
     }
    /**
     * Esta función toma dos números enteros como parámetros y devuelve la diferencia entre ellos
