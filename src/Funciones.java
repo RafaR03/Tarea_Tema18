@@ -63,9 +63,7 @@ public class Funciones{
  * @return El opuesto del número ingresado.
  */
     public static int nega(int r){
-        int opuesto=0;
-        opuesto= -r;
-        return opuesto;
+        return -r;
     }
 /**
  * Esta función toma tres números como entrada y devuelve el promedio de los tres números
