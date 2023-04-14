@@ -42,9 +42,7 @@ public class Funciones{
    * @return El valor de la variable div.
    */
     public static int div( int x,int q){
-        int div=0;
-        div=x/q;
-        return div;
+        return x/q;
     }
 /**
  * La función resto() toma dos enteros como entrada y devuelve el resto del primer entero dividido por
