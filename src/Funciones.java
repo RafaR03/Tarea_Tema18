@@ -41,9 +41,7 @@ public class Funciones{
    * @return El valor de la variable div.
    */
     public static int div( int x,int q){
-        int div=0;
-        div=x/q;
-        return div;
+        return x/q;
     }
 /**
  * La función resto() toma dos enteros como entrada y devuelve el resto del primer entero dividido por
@@ -55,9 +53,7 @@ public class Funciones{
  */
     // Un método que devuelve el resto de la división de dos enteros.
     public static int resto(int e,int t){
-        int resto=0;
-        resto=e%t;
-        return resto;
+        return e%t;
     }
 /**
  * Toma un entero como argumento y devuelve el negativo de ese entero
@@ -66,9 +62,7 @@ public class Funciones{
  * @return El opuesto del número ingresado.
  */
     public static int nega(int r){
-        int opuesto=0;
-        opuesto= -r;
-        return opuesto;
+        return -r;
     }
 /**
  * Esta función toma tres números como entrada y devuelve el promedio de los tres números
@@ -79,9 +73,7 @@ public class Funciones{
  * @return El promedio de los tres números.
  */
     public static double med(Double r,Double j, Double k){
-
-        double med=(r+j+k)/3;
-        return med;
+        return (r+j+k)/3;
     }
 /**
  * Toma dos números, los eleva al cuadrado, los suma y luego devuelve la raíz cuadrada de la suma
