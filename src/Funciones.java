@@ -74,9 +74,7 @@ public class Funciones{
  * @return El promedio de los tres números.
  */
     public static double med(Double r,Double j, Double k){
-
-        double med=(r+j+k)/3;
-        return med;
+        return (r+j+k)/3;
     }
 /**
  * Toma dos números, los eleva al cuadrado, los suma y luego devuelve la raíz cuadrada de la suma
