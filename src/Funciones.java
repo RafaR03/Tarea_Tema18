@@ -20,9 +20,7 @@ public class Funciones{
     * @return El resultado de la operación.
     */
     public static int resta(int r,int j){
-        int resta=0;
-            resta= r - j;
-        return resta;
+        return r - j;
     }
    /**
     * Esta función toma dos enteros como entrada y devuelve el producto de los dos enteros
